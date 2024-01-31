@@ -5,6 +5,13 @@
 
 .heading-1{
   @extend %heading;
+
+  color: $color-grey-light-1;
+  font-size: 4.5rem;
+  line-height: 1;
+
+
+
 }
 .heading-2{
   @extend %heading;
@@ -25,7 +32,7 @@
 .heading-3{
   @extend %heading;
   font-size: 1.6rem;
-  color: $color-primary;
+  color: #fff;
   text-transform: uppercase;
 }
 
